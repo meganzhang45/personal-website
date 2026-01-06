@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+:root {
+  --primary-colour: #0e4c6b;
+}
+
+body {
+  background: rgb(253, 249, 237);
+  margin: 0;
+  font-family: "Rubik";
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgb(255, 254, 250);
+  padding: 20px, 100px;
+  align-items: center;
+  z-index: 100;
+}
+.navbar .nav-hp {
+  text-decoration: none;
+  color: var(--primary-colour);
+}
+.navbar .nav-p {
+  text-decoration: none;
+  color: var(--primary-colour);
+}
+.navbar .nav-c {
+  text-decoration: none;
+  color: var(--primary-colour);
+}
+.navbar .logo-hp {
+  height: 1.5em;
+  margin-right: 23em;
+}
+.navbar ul {
+  list-style-type: none;
+  justify-content: space-between;
+  text-align: right;
+  display: flex;
+  margin: 0;
+  padding: 0.7em;
+}
+
+.hero-hp {
+  color: var(--primary-colour);
+  padding: 1em;
+}
+.hero-hp .self-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 88%;
+  height: auto;
+  margin-top: 5em;
+  border: 5px solid var(--primary-colour);
+}
+.hero-hp .intro-text {
+  font-size: large;
+}
+.hero-hp .socials-hp {
+  list-style-type: none;
+  display: flex;
+  margin-left: 15em;
+  margin-right: 15em;
+  margin: 0px;
+  justify-content: space-between;
+}
+.hero-hp .socials-hp .linkedin-logo {
+  height: 47px;
+}
+.hero-hp .socials-hp .github-logo {
+  height: 47px;
+}
+.hero-hp .socials-hp .instagram-logo {
+  height: 47px;
+}/*# sourceMappingURL=homepage.css.map */

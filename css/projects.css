@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+:root {
+  --primary-colour: #0e4c6b;
+}
+
+body {
+  background: rgb(253, 249, 237);
+  margin: 0;
+  font-family: "Rubik";
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgb(255, 254, 250);
+  padding: 20px, 100px;
+  align-items: center;
+  z-index: 100;
+}
+.navbar .nav-hp {
+  text-decoration: none;
+  color: var(--primary-colour);
+}
+.navbar .nav-p {
+  text-decoration: none;
+  color: var(--primary-colour);
+}
+.navbar .nav-c {
+  text-decoration: none;
+  color: var(--primary-colour);
+}
+.navbar .logo-hp {
+  height: 1.5em;
+  margin-right: 23em;
+}
+.navbar ul {
+  list-style-type: none;
+  justify-content: space-between;
+  text-align: right;
+  display: flex;
+  margin: 0;
+  padding: 0.7em;
+}
+
+.headers-p {
+  margin-top: 4em;
+  text-align: center;
+  color: var(--primary-colour);
+  font-size: large;
+}
+
+.hero-p .blocks-all {
+  display: flex;
+  justify-content: center;
+}
+.hero-p .block {
+  width: 20em;
+  border: 5px solid var(--primary-colour);
+  margin-left: 2em;
+  border-radius: 5px;
+  padding: 1em;
+}
+.hero-p .block .block-t {
+  list-style-type: none;
+  color: var(--primary-colour);
+}
+.hero-p .block .turtle-p {
+  height: 19.5em;
+}
+.hero-p .block .block-th {
+  list-style-type: none;
+  color: var(--primary-colour);
+}
+.hero-p .block .thunkable-p {
+  height: 19.5em;
+  padding-left: 4em;
+}/*# sourceMappingURL=projects.css.map */
