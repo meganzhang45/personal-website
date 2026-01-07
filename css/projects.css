@@ -77,3 +77,22 @@ body {
   height: 19.5em;
   padding-left: 4em;
 }/*# sourceMappingURL=projects.css.map */
+
+.hero-p.fish-bg {
+  position: relative;
+  z-index: -1;
+}
+.hero-p .fish-bg .or-fish {
+  position: absolute;
+  height: 30em;
+  height: 30em;
+  bottom: 0;
+  left: 0;
+}
+
+.hero-p .fish-bg .bl-fish {
+  position: absolute;
+  height: 30em;
+  bottom: 0;
+  right: 0;
+}
