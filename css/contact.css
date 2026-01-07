@@ -58,6 +58,10 @@ body {
   max-width: 50%;
 }
 
+.header-c .my-email {
+  color: var(--primary-colour);
+}
+
 .hero-c .contact-box {
   display: flex;
   justify-content: center;
