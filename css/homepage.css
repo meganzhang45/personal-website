@@ -59,16 +59,17 @@ body {
 }
 .hero-hp .intro-text {
   font-size: large;
-  margin-left: 19.5em;
-  margin-right: 19.5em;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .hero-hp .socials-hp {
   list-style-type: none;
   display: flex;
-  margin-left: 15em;
-  margin-right: 15em;
-  margin: 0px;
+  margin-left: auto;
+  margin-right: auto;
   justify-content: space-between;
+  max-width: 25%;
 }
 .hero-hp .socials-hp .linkedin-logo {
   height: 47px;
