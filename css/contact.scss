@@ -83,5 +83,14 @@ body {
             margin: 8px 0;
             box-sizing: border-box;
         }
+
+        .submit {
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 15px;
+            transition: 0.3s;
+            background-color: white;
+        }
+
     }
 }
