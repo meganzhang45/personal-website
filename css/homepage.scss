@@ -23,16 +23,31 @@ body {
     .nav-hp {
         text-decoration: none;
         color: var(--primary-colour);
+        transition: 0.3s;
+    }
+    
+    .nav-hp:hover {
+        color: rgb(241, 150, 65);
     }
     
     .nav-p {
         text-decoration: none;
         color: var(--primary-colour);
-        }
+        transition: 0.3s;
+    }
+    
+    .nav-p:hover {
+        color: rgb(241, 150, 65);
+    }
     
     .nav-c {
         text-decoration: none;
         color: var(--primary-colour);
+        transition: 0.3s;
+    }
+
+    .nav-c:hover {
+        color: rgb(241, 150, 65);
     }
 
     .logo-hp {
@@ -52,13 +67,12 @@ body {
 
 .hero-hp {
     color: var(--primary-colour);
-    padding: 1em;
 
     .self-img {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        max-width: 88%;
+        max-width: 50%;
         height: auto;
         margin-top: 5em;
         border: 5px solid var(--primary-colour);
@@ -66,25 +80,52 @@ body {
 
     .intro-text { 
         font-size: large;
+        max-width: 50%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .socials-hp {
         list-style-type: none;
         display: flex;
-        margin-left: 15em;
-        margin-right: 15em;
-        margin: 0px;
+        margin-left: auto;
+        margin-right: auto;
         justify-content: space-between;
+        max-width: 25%;
         
         .linkedin-logo {
             height: 47px;
         }
+
         .github-logo {
             height: 47px;
         }
 
         .instagram-logo {
             height: 47px;
+        }
+    }
+
+    .fish-bg {
+
+        position: relative;
+        z-index: -1;
+
+        .or-fish {
+            position: fixed;
+            height: 30em;
+            height: 30em;
+            bottom: 0;
+            left: 0;
+            z-index: -1;
+        }
+
+        .bl-fish {
+            position: fixed;
+            height: 30em;
+            bottom: 0;
+            right: 0;
+            z-index: -1;
         }
     }
 }

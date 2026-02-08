@@ -23,17 +23,26 @@ body {
 .navbar .nav-hp {
   text-decoration: none;
   color: var(--primary-colour);
+  transition: 0.3s;
 }
-.navbar .nav-hp .nav-hp:hover {
-  color: azure;
+.navbar .nav-hp:hover {
+  color: rgb(241, 150, 65);
 }
 .navbar .nav-p {
   text-decoration: none;
   color: var(--primary-colour);
+  transition: 0.3s;
+}
+.navbar .nav-p:hover {
+  color: rgb(241, 150, 65);
 }
 .navbar .nav-c {
   text-decoration: none;
   color: var(--primary-colour);
+  transition: 0.3s;
+}
+.navbar .nav-c:hover {
+  color: rgb(241, 150, 65);
 }
 .navbar .logo-hp {
   height: 1.5em;
@@ -53,19 +62,22 @@ body {
   text-align: center;
   color: var(--primary-colour);
   font-size: large;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 50%;
+  margin-left: 1em;
+  margin-right: 1em;
 }
-
 .header-c .my-email {
   color: var(--primary-colour);
+  transition: 0.3s;
+}
+.header-c .my-email:hover {
+  color: rgb(241, 150, 65);
 }
 
 .hero-c .contact-box {
   display: flex;
   justify-content: center;
   padding-top: 5em;
+  z-index: 10;
 }
 .hero-c .container-c {
   color: var(--primary-colour);
@@ -78,35 +90,37 @@ body {
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
-}/*# sourceMappingURL=contact.css.map */
-
+}
 .hero-c .container-c .submit {
   border-radius: 5px;
   cursor: pointer;
   font-size: 15px;
   transition: 0.3s;
-  background-color: white;
-}
-
-.hero-c .container-c .submit:hover {
   background-color: var(--primary-colour);
+  color: rgb(253, 249, 237);
+  border-color: #0e4c6b;
 }
-
-.hero-p.fish-bg {
+.hero-c .container-c .submit:hover {
+  background-color: rgb(241, 150, 65);
+  color: rgb(253, 249, 237);
+  border-color: rgb(241, 150, 65);
+}
+.hero-c .fish-bg {
   position: relative;
   z-index: -1;
 }
 .hero-c .fish-bg .or-fish {
-  position: absolute;
+  position: fixed;
   height: 30em;
   height: 30em;
   bottom: 0;
   left: 0;
+  z-index: -1;
 }
-
 .hero-c .fish-bg .bl-fish {
-  position: absolute;
+  position: fixed;
   height: 30em;
   bottom: 0;
   right: 0;
-}
+  z-index: -1;
+}/*# sourceMappingURL=contact.css.map */

@@ -22,14 +22,26 @@ body {
 .navbar .nav-hp {
   text-decoration: none;
   color: var(--primary-colour);
+  transition: 0.3s;
+}
+.navbar .nav-hp:hover {
+  color: rgb(241, 150, 65);
 }
 .navbar .nav-p {
   text-decoration: none;
   color: var(--primary-colour);
+  transition: 0.3s;
+}
+.navbar .nav-p:hover {
+  color: rgb(241, 150, 65);
 }
 .navbar .nav-c {
   text-decoration: none;
   color: var(--primary-colour);
+  transition: 0.3s;
+}
+.navbar .nav-c:hover {
+  color: rgb(241, 150, 65);
 }
 .navbar .logo-hp {
   height: 1.5em;
@@ -46,7 +58,6 @@ body {
 
 .hero-hp {
   color: var(--primary-colour);
-  padding: 1em;
 }
 .hero-hp .self-img {
   display: block;
@@ -79,24 +90,23 @@ body {
 }
 .hero-hp .socials-hp .instagram-logo {
   height: 47px;
-}/*# sourceMappingURL=homepage.css.map */
-
-.hero-hp.fish-bg {
+}
+.hero-hp .fish-bg {
   position: relative;
   z-index: -1;
 }
 .hero-hp .fish-bg .or-fish {
-  position: absolute;
+  position: fixed;
   height: 30em;
   height: 30em;
   bottom: 0;
   left: 0;
+  z-index: -1;
 }
-
 .hero-hp .fish-bg .bl-fish {
-  position: absolute;
+  position: fixed;
   height: 30em;
   bottom: 0;
   right: 0;
-}
-
+  z-index: -1;
+}/*# sourceMappingURL=homepage.css.map */

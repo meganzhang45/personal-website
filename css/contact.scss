@@ -24,21 +24,33 @@ body {
     .nav-hp {
         text-decoration: none;
         color: var(--primary-colour);
-
-        .nav-hp:hover {
-            color: azure;
-        }
+        transition: 0.3s;
+    }
+    
+    .nav-hp:hover {
+        color: rgb(241, 150, 65);
     }
     
     .nav-p {
         text-decoration: none;
         color: var(--primary-colour);
-        }
+        transition: 0.3s;
+    }
+    
+    .nav-p:hover {
+        color: rgb(241, 150, 65);
+    }
     
     .nav-c {
         text-decoration: none;
         color: var(--primary-colour);
+        transition: 0.3s;
     }
+
+    .nav-c:hover {
+        color: rgb(241, 150, 65);
+    }
+
     .logo-hp {
         height: 1.5em;
         margin-right: 23em;
@@ -61,6 +73,15 @@ body {
     font-size: large;
     margin-left: 1em;
     margin-right: 1em;
+
+    .my-email {
+        color: var(--primary-colour);
+        transition: 0.3s;
+    }
+
+    .my-email:hover {
+        color: rgb(241, 150, 65);
+    }
 }
 
 .hero-c {
@@ -69,6 +90,7 @@ body {
         display: flex;
         justify-content: center;
         padding-top: 5em;
+        z-index: 10;
     }
 
     .container-c {
@@ -89,8 +111,39 @@ body {
             cursor: pointer;
             font-size: 15px;
             transition: 0.3s;
-            background-color: white;
+            background-color: var(--primary-colour);
+            color: rgb(253, 249, 237);
+            border-color: #0e4c6b;
         }
 
+        .submit:hover {
+            background-color: rgb(241, 150, 65);
+            color: rgb(253, 249, 237);
+            border-color: rgb(241, 150, 65);
+        }
+
+    }
+
+    .fish-bg {
+
+        position: relative;
+        z-index: -1;
+
+        .or-fish {
+            position: fixed;
+            height: 30em;
+            height: 30em;
+            bottom: 0;
+            left: 0;
+            z-index: -1;
+        }
+
+        .bl-fish {
+            position: fixed;
+            height: 30em;
+            bottom: 0;
+            right: 0;
+            z-index: -1;
+        }
     }
 }

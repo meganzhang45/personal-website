@@ -23,16 +23,31 @@ body {
     .nav-hp {
         text-decoration: none;
         color: var(--primary-colour);
+        transition: 0.3s;
+    }
+    
+    .nav-hp:hover {
+        color: rgb(241, 150, 65);
     }
     
     .nav-p {
         text-decoration: none;
         color: var(--primary-colour);
-        }
+        transition: 0.3s;
+    }
+    
+    .nav-p:hover {
+        color: rgb(241, 150, 65);
+    }
     
     .nav-c {
         text-decoration: none;
         color: var(--primary-colour);
+        transition: 0.3s;
+    }
+
+    .nav-c:hover {
+        color: rgb(241, 150, 65);
     }
 
     .logo-hp {
@@ -71,6 +86,7 @@ body {
         margin-left: 2em;
         border-radius: 5px;
         padding: 1em;
+        background-color: rgb(253, 249, 237);
 
         .block-t {
             list-style-type: none;
@@ -89,6 +105,29 @@ body {
         .thunkable-p {
             height: 19.5em;
             padding-left: 4em;
+        }
+    }
+
+    .fish-bg {
+
+        position: relative;
+        z-index: -1;
+
+        .or-fish {
+            position: fixed;
+            height: 30em;
+            height: 30em;
+            bottom: 0;
+            left: 0;
+            z-index: -1;
+        }
+
+        .bl-fish {
+            position: fixed;
+            height: 30em;
+            bottom: 0;
+            right: 0;
+            z-index: -1;
         }
     }
 }
